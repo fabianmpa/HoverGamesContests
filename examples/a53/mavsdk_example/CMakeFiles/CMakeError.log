@@ -1,0 +1,62 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/fabsmpa/HoverGames/devel/tools/a53/mavsdk_example/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d12ad/fast && /usr/bin/make -f CMakeFiles/cmTC_d12ad.dir/build.make CMakeFiles/cmTC_d12ad.dir/build
+make[1]: Entering directory '/home/fabsmpa/HoverGames/devel/tools/a53/mavsdk_example/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d12ad.dir/src.c.o
+/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc   -mcpu=cortex-a53+crc+crypto -fstack-protector-strong  -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux --sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux   -O2 -pipe -g -feliminate-unused-debug-types  -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_d12ad.dir/src.c.o   -c /home/fabsmpa/HoverGames/devel/tools/a53/mavsdk_example/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d12ad
+/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d12ad.dir/link.txt --verbose=1
+/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc   -mcpu=cortex-a53+crc+crypto -fstack-protector-strong  -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux --sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux  -O2 -pipe -g -feliminate-unused-debug-types  -DCMAKE_HAVE_LIBC_PTHREAD  -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fstack-protector-strong -Wl,-z,relro,-z,now  CMakeFiles/cmTC_d12ad.dir/src.c.o  -o cmTC_d12ad 
+/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/real-ld: CMakeFiles/cmTC_d12ad.dir/src.c.o: in function `main':
+/home/fabsmpa/HoverGames/devel/tools/a53/mavsdk_example/CMakeFiles/CMakeTmp/src.c:11: undefined reference to `pthread_create'
+/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/real-ld: /home/fabsmpa/HoverGames/devel/tools/a53/mavsdk_example/CMakeFiles/CMakeTmp/src.c:12: undefined reference to `pthread_detach'
+/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/real-ld: /home/fabsmpa/HoverGames/devel/tools/a53/mavsdk_example/CMakeFiles/CMakeTmp/src.c:13: undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d12ad.dir/build.make:86: recipe for target 'cmTC_d12ad' failed
+make[1]: *** [cmTC_d12ad] Error 1
+make[1]: Leaving directory '/home/fabsmpa/HoverGames/devel/tools/a53/mavsdk_example/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_d12ad/fast' failed
+make: *** [cmTC_d12ad/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/fabsmpa/HoverGames/devel/tools/a53/mavsdk_example/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6cc90/fast && /usr/bin/make -f CMakeFiles/cmTC_6cc90.dir/build.make CMakeFiles/cmTC_6cc90.dir/build
+make[1]: Entering directory '/home/fabsmpa/HoverGames/devel/tools/a53/mavsdk_example/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6cc90.dir/CheckFunctionExists.c.o
+/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc   -mcpu=cortex-a53+crc+crypto -fstack-protector-strong  -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux --sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux   -O2 -pipe -g -feliminate-unused-debug-types  -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_6cc90.dir/CheckFunctionExists.c.o   -c /opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.15/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6cc90
+/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6cc90.dir/link.txt --verbose=1
+/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc   -mcpu=cortex-a53+crc+crypto -fstack-protector-strong  -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux --sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux  -O2 -pipe -g -feliminate-unused-debug-types  -DCHECK_FUNCTION_EXISTS=pthread_create  -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fstack-protector-strong -Wl,-z,relro,-z,now  CMakeFiles/cmTC_6cc90.dir/CheckFunctionExists.c.o  -o cmTC_6cc90 -lpthreads 
+/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/real-ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_6cc90.dir/build.make:86: recipe for target 'cmTC_6cc90' failed
+make[1]: *** [cmTC_6cc90] Error 1
+make[1]: Leaving directory '/home/fabsmpa/HoverGames/devel/tools/a53/mavsdk_example/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_6cc90/fast' failed
+make: *** [cmTC_6cc90/fast] Error 2
+
+
+

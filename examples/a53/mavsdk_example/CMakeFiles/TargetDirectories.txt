@@ -1,0 +1,3 @@
+/home/fabsmpa/HoverGames/devel/tools/a53/mavsdk_example/CMakeFiles/rebuild_cache.dir
+/home/fabsmpa/HoverGames/devel/tools/a53/mavsdk_example/CMakeFiles/mavshell.dir
+/home/fabsmpa/HoverGames/devel/tools/a53/mavsdk_example/CMakeFiles/edit_cache.dir

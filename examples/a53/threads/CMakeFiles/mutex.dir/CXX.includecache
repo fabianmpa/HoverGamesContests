@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fabsmpa/HoverGames/devel/tools/a53/threads/threads.cpp
+chrono
+-
+iostream
+-
+thread
+-
+mutex
+-
+

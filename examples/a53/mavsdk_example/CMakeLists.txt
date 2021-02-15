@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.10.2)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-project(mavsdk)
+project(mavshell)
 
 if(NOT MSVC)
     add_definitions("-Wall -Wextra")
@@ -13,15 +13,12 @@ endif()
 
 find_package(MAVSDK REQUIRED)
 find_package(Threads)
-include_directories(../include)
-add_executable(hovergames
-    hovergames.cpp
-    navqcontrol.cpp
+
+add_executable(mavshell
+    mavshell.cpp
 )
 
-target_link_libraries(hovergames
-    MAVSDK::mavsdk_telemetry
-    MAVSDK::mavsdk_action
+target_link_libraries(mavshell
+    MAVSDK::mavsdk_shell
     MAVSDK::mavsdk
-    pthread
 )

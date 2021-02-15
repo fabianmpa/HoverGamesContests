@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fabsmpa/HoverGames/devel/project/src/mavsdk/hg_test.cpp
+chrono
+-
+cstdint
+-
+thread
+-
+mutex
+-
+mavsdk/mavsdk.h
+-
+mavsdk/plugins/action/action.h
+-
+mavsdk/plugins/telemetry/telemetry.h
+-
+iostream
+-
+mavsdk/mavsdk.h
+-
+mavsdk/plugins/action/action.h
+-
+mavsdk/plugins/mission/mission.h
+-
+mavsdk/plugins/telemetry/telemetry.h
+-
+functional
+-
+future
+-
+iostream
+-
+memory
+-
+

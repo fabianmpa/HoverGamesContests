@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fabsmpa/HoverGames/devel/tools/a53/mavsdk_example/mavshell.cpp
+future
+-
+mavsdk/mavsdk.h
+-
+mavsdk/plugins/shell/shell.h
+-
+iostream
+-
+

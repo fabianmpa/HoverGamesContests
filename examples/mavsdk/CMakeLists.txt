@@ -13,15 +13,15 @@ endif()
 
 find_package(MAVSDK REQUIRED)
 find_package(Threads)
-include_directories(../include)
-add_executable(hovergames
-    hovergames.cpp
-    navqcontrol.cpp
+
+add_executable(mavsdk
+    hg_test.cpp
 )
 
-target_link_libraries(hovergames
-    MAVSDK::mavsdk_telemetry
+target_link_libraries(mavsdk
     MAVSDK::mavsdk_action
+    MAVSDK::mavsdk_mission
+    MAVSDK::mavsdk_telemetry
     MAVSDK::mavsdk
     pthread
 )

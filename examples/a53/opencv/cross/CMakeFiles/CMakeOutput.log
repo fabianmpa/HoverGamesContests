@@ -1,0 +1,420 @@
+The target system is: Linux -  - aarch64
+The host system is: Linux - 5.4.0-62-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc -mcpu=cortex-a53+crc+crypto;-fstack-protector-strong;-D_FORTIFY_SOURCE=2;-Wformat;-Wformat-security;-Werror=format-security;--sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux
+Build flags: ;-O2;-pipe;-g;-feliminate-unused-debug-types;
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/fabsmpa/HoverGames/devel/tools/a53/opencv/cross/CMakeFiles/3.15.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++ -mcpu=cortex-a53+crc+crypto;-fstack-protector-strong;-D_FORTIFY_SOURCE=2;-Wformat;-Wformat-security;-Werror=format-security;--sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux
+Build flags: ;-O2;-pipe;-g;-feliminate-unused-debug-types;
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/fabsmpa/HoverGames/devel/tools/a53/opencv/cross/CMakeFiles/3.15.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/fabsmpa/HoverGames/devel/tools/a53/opencv/cross/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9accc/fast && /usr/bin/make -f CMakeFiles/cmTC_9accc.dir/build.make CMakeFiles/cmTC_9accc.dir/build
+make[1]: Entering directory '/home/fabsmpa/HoverGames/devel/tools/a53/opencv/cross/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9accc.dir/testCCompiler.c.o
+/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc   -mcpu=cortex-a53+crc+crypto -fstack-protector-strong  -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux --sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux   -O2 -pipe -g -feliminate-unused-debug-types     -o CMakeFiles/cmTC_9accc.dir/testCCompiler.c.o   -c /home/fabsmpa/HoverGames/devel/tools/a53/opencv/cross/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_9accc
+/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9accc.dir/link.txt --verbose=1
+/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc   -mcpu=cortex-a53+crc+crypto -fstack-protector-strong  -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux --sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux  -O2 -pipe -g -feliminate-unused-debug-types    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fstack-protector-strong -Wl,-z,relro,-z,now  CMakeFiles/cmTC_9accc.dir/testCCompiler.c.o  -o cmTC_9accc 
+make[1]: Leaving directory '/home/fabsmpa/HoverGames/devel/tools/a53/opencv/cross/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/fabsmpa/HoverGames/devel/tools/a53/opencv/cross/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_55292/fast && /usr/bin/make -f CMakeFiles/cmTC_55292.dir/build.make CMakeFiles/cmTC_55292.dir/build
+make[1]: Entering directory '/home/fabsmpa/HoverGames/devel/tools/a53/opencv/cross/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_55292.dir/CMakeCCompilerABI.c.o
+/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc   -mcpu=cortex-a53+crc+crypto -fstack-protector-strong  -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux --sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux   -O2 -pipe -g -feliminate-unused-debug-types     -v -o CMakeFiles/cmTC_55292.dir/CMakeCCompilerABI.c.o   -c /opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.15/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc
+Target: aarch64-poky-linux
+Configured with: ../../../../../../work-shared/gcc-9.2.0-r0/gcc-9.2.0/configure --build=x86_64-linux --host=x86_64-pokysdk-linux --target=aarch64-poky-linux --prefix=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr --exec_prefix=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr --bindir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --sbindir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --libexecdir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux --datadir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/share --sysconfdir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/etc --sharedstatedir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/com --localstatedir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/var --libdir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux --includedir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/include --oldincludedir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/include --infodir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/share/info --mandir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/fabsmpa/HoverGames/yocto/build-wayland/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/9.2.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=aarch64-poky-linux- --without-local-prefix --enable-lto --disable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/9.2.0 --with-build-time-tools=/home/fabsmpa/HoverGames/yocto/build-wayland/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/9.2.0-r0/recipe-sysroot-native/usr/aarch64-poky-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/home/fabsmpa/HoverGames/yocto/build-wayland/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/9.2.0-r0/recipe-sysroot --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array --enable-__cxa_atexit
+Thread model: posix
+gcc version 9.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='--sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux' '-mcpu=cortex-a53+crc+crypto' '-fstack-protector-strong' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'CMakeFiles/cmTC_55292.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64'
+ /opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/cc1 -quiet -v -isysroot /opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux -D _FORTIFY_SOURCE=2 /opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.15/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-a53+crc+crypto -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_55292.dir/CMakeCCompilerABI.c.o -g -O2 -Wformat=1 -Wformat-security -Werror=format-security -version -fstack-protector-strong -feliminate-unused-debug-types -o - |
+ /opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/as -v -EL -march=armv8-a+crypto+crc -mabi=lp64 -o CMakeFiles/cmTC_55292.dir/CMakeCCompilerABI.c.o
+GNU assembler version 2.32.0 (aarch64-poky-linux) using BFD version (GNU Binutils) 2.32.0.20190204
+GNU C17 (GCC) version 9.2.0 (aarch64-poky-linux)
+	compiled by GNU C version 9.2.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/local/include"
+ignoring nonexistent directory "/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/../../../../../aarch64-poky-linux/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/include
+ /opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.2.0/include
+ /opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/include-fixed
+ /opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/include/
+End of search list.
+GNU C17 (GCC) version 9.2.0 (aarch64-poky-linux)
+	compiled by GNU C version 9.2.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 882189549a17da6f13591a128d8a6812
+COMPILER_PATH=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/
+LIBRARY_PATH=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/lib/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.2.0/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/
+COLLECT_GCC_OPTIONS='--sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux' '-mcpu=cortex-a53+crc+crypto' '-fstack-protector-strong' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'CMakeFiles/cmTC_55292.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64'
+Linking C executable cmTC_55292
+/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55292.dir/link.txt --verbose=1
+/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc   -mcpu=cortex-a53+crc+crypto -fstack-protector-strong  -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux --sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux  -O2 -pipe -g -feliminate-unused-debug-types    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fstack-protector-strong -Wl,-z,relro,-z,now -v CMakeFiles/cmTC_55292.dir/CMakeCCompilerABI.c.o  -o cmTC_55292 
+Using built-in specs.
+COLLECT_GCC=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc
+COLLECT_LTO_WRAPPER=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/lto-wrapper
+Target: aarch64-poky-linux
+Configured with: ../../../../../../work-shared/gcc-9.2.0-r0/gcc-9.2.0/configure --build=x86_64-linux --host=x86_64-pokysdk-linux --target=aarch64-poky-linux --prefix=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr --exec_prefix=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr --bindir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --sbindir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --libexecdir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux --datadir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/share --sysconfdir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/etc --sharedstatedir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/com --localstatedir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/var --libdir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux --includedir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/include --oldincludedir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/include --infodir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/share/info --mandir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/fabsmpa/HoverGames/yocto/build-wayland/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/9.2.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=aarch64-poky-linux- --without-local-prefix --enable-lto --disable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/9.2.0 --with-build-time-tools=/home/fabsmpa/HoverGames/yocto/build-wayland/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/9.2.0-r0/recipe-sysroot-native/usr/aarch64-poky-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/home/fabsmpa/HoverGames/yocto/build-wayland/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/9.2.0-r0/recipe-sysroot --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array --enable-__cxa_atexit
+Thread model: posix
+gcc version 9.2.0 (GCC) 
+COMPILER_PATH=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/
+LIBRARY_PATH=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/lib/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.2.0/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/
+COLLECT_GCC_OPTIONS='--sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux' '-mcpu=cortex-a53+crc+crypto' '-fstack-protector-strong' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-fstack-protector-strong' '-v' '-o' 'cmTC_55292' '-mlittle-endian' '-mabi=lp64'
+ /opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/collect2 -plugin /opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/liblto_plugin.so -plugin-opt=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6F2Fef.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -pie -o cmTC_55292 /opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/Scrt1.o /opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/crti.o /opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.2.0/crtbeginS.o -L/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0 -L/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/lib -L/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.2.0 -L/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib -O1 --hash-style=gnu --as-needed -z relro -z now CMakeFiles/cmTC_55292.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.2.0/crtendS.o /opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='--sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux' '-mcpu=cortex-a53+crc+crypto' '-fstack-protector-strong' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-fstack-protector-strong' '-v' '-o' 'cmTC_55292' '-mlittle-endian' '-mabi=lp64'
+make[1]: Leaving directory '/home/fabsmpa/HoverGames/devel/tools/a53/opencv/cross/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/include]
+    add: [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.2.0/include]
+    add: [/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/include-fixed]
+    add: [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/include/]
+  end of search list found
+  collapse include dir [/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/include] ==> [/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/include]
+  collapse include dir [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.2.0/include] ==> [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.2.0/include]
+  collapse include dir [/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/include-fixed] ==> [/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/include-fixed]
+  collapse include dir [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/include/] ==> [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/include]
+  implicit include dirs: [/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/include;/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.2.0/include;/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/include-fixed;/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(aarch64-poky-linux-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/fabsmpa/HoverGames/devel/tools/a53/opencv/cross/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_55292/fast && /usr/bin/make -f CMakeFiles/cmTC_55292.dir/build.make CMakeFiles/cmTC_55292.dir/build]
+  ignore line: [make[1]: Entering directory '/home/fabsmpa/HoverGames/devel/tools/a53/opencv/cross/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_55292.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc   -mcpu=cortex-a53+crc+crypto -fstack-protector-strong  -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux --sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux   -O2 -pipe -g -feliminate-unused-debug-types     -v -o CMakeFiles/cmTC_55292.dir/CMakeCCompilerABI.c.o   -c /opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.15/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc]
+  ignore line: [Target: aarch64-poky-linux]
+  ignore line: [Configured with: ../../../../../../work-shared/gcc-9.2.0-r0/gcc-9.2.0/configure --build=x86_64-linux --host=x86_64-pokysdk-linux --target=aarch64-poky-linux --prefix=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr --exec_prefix=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr --bindir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --sbindir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --libexecdir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux --datadir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/share --sysconfdir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/etc --sharedstatedir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/com --localstatedir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/var --libdir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux --includedir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/include --oldincludedir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/include --infodir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/share/info --mandir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/fabsmpa/HoverGames/yocto/build-wayland/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/9.2.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=aarch64-poky-linux- --without-local-prefix --enable-lto --disable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/9.2.0 --with-build-time-tools=/home/fabsmpa/HoverGames/yocto/build-wayland/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/9.2.0-r0/recipe-sysroot-native/usr/aarch64-poky-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/home/fabsmpa/HoverGames/yocto/build-wayland/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/9.2.0-r0/recipe-sysroot --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array --enable-__cxa_atexit]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux' '-mcpu=cortex-a53+crc+crypto' '-fstack-protector-strong' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'CMakeFiles/cmTC_55292.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [ /opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/cc1 -quiet -v -isysroot /opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux -D _FORTIFY_SOURCE=2 /opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.15/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-a53+crc+crypto -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_55292.dir/CMakeCCompilerABI.c.o -g -O2 -Wformat=1 -Wformat-security -Werror=format-security -version -fstack-protector-strong -feliminate-unused-debug-types -o - |]
+  ignore line: [ /opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/as -v -EL -march=armv8-a+crypto+crc -mabi=lp64 -o CMakeFiles/cmTC_55292.dir/CMakeCCompilerABI.c.o]
+  ignore line: [GNU assembler version 2.32.0 (aarch64-poky-linux) using BFD version (GNU Binutils) 2.32.0.20190204]
+  ignore line: [GNU C17 (GCC) version 9.2.0 (aarch64-poky-linux)]
+  ignore line: [	compiled by GNU C version 9.2.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/../../../../../aarch64-poky-linux/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/include]
+  ignore line: [ /opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.2.0/include]
+  ignore line: [ /opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/include-fixed]
+  ignore line: [ /opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/include/]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 9.2.0 (aarch64-poky-linux)]
+  ignore line: [	compiled by GNU C version 9.2.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 882189549a17da6f13591a128d8a6812]
+  ignore line: [COMPILER_PATH=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/]
+  ignore line: [LIBRARY_PATH=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/lib/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.2.0/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux' '-mcpu=cortex-a53+crc+crypto' '-fstack-protector-strong' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'CMakeFiles/cmTC_55292.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [Linking C executable cmTC_55292]
+  ignore line: [/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55292.dir/link.txt --verbose=1]
+  ignore line: [/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc   -mcpu=cortex-a53+crc+crypto -fstack-protector-strong  -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux --sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux  -O2 -pipe -g -feliminate-unused-debug-types    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fstack-protector-strong -Wl,-z,relro,-z,now -v CMakeFiles/cmTC_55292.dir/CMakeCCompilerABI.c.o  -o cmTC_55292 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/lto-wrapper]
+  ignore line: [Target: aarch64-poky-linux]
+  ignore line: [Configured with: ../../../../../../work-shared/gcc-9.2.0-r0/gcc-9.2.0/configure --build=x86_64-linux --host=x86_64-pokysdk-linux --target=aarch64-poky-linux --prefix=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr --exec_prefix=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr --bindir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --sbindir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --libexecdir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux --datadir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/share --sysconfdir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/etc --sharedstatedir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/com --localstatedir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/var --libdir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux --includedir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/include --oldincludedir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/include --infodir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/share/info --mandir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/fabsmpa/HoverGames/yocto/build-wayland/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/9.2.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=aarch64-poky-linux- --without-local-prefix --enable-lto --disable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/9.2.0 --with-build-time-tools=/home/fabsmpa/HoverGames/yocto/build-wayland/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/9.2.0-r0/recipe-sysroot-native/usr/aarch64-poky-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/home/fabsmpa/HoverGames/yocto/build-wayland/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/9.2.0-r0/recipe-sysroot --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array --enable-__cxa_atexit]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/]
+  ignore line: [LIBRARY_PATH=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/lib/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.2.0/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux' '-mcpu=cortex-a53+crc+crypto' '-fstack-protector-strong' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-fstack-protector-strong' '-v' '-o' 'cmTC_55292' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/collect2 -plugin /opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/liblto_plugin.so -plugin-opt=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6F2Fef.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -pie -o cmTC_55292 /opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/Scrt1.o /opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/crti.o /opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.2.0/crtbeginS.o -L/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0 -L/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/lib -L/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.2.0 -L/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib -O1 --hash-style=gnu --as-needed -z relro -z now CMakeFiles/cmTC_55292.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.2.0/crtendS.o /opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/crtn.o]
+    arg [/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc6F2Fef.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_55292] ==> ignore
+    arg [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/Scrt1.o] ==> ignore
+    arg [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/crti.o] ==> ignore
+    arg [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.2.0/crtbeginS.o] ==> ignore
+    arg [-L/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0] ==> dir [/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0]
+    arg [-L/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/lib] ==> dir [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/lib]
+    arg [-L/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.2.0] ==> dir [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.2.0]
+    arg [-L/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib] ==> dir [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib]
+    arg [-O1] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [CMakeFiles/cmTC_55292.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.2.0/crtendS.o] ==> ignore
+    arg [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/crtn.o] ==> ignore
+  collapse library dir [/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0] ==> [/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0]
+  collapse library dir [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/lib] ==> [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/lib]
+  collapse library dir [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.2.0] ==> [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.2.0]
+  collapse library dir [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib] ==> [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0;/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/lib;/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.2.0;/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/fabsmpa/HoverGames/devel/tools/a53/opencv/cross/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7fda5/fast && /usr/bin/make -f CMakeFiles/cmTC_7fda5.dir/build.make CMakeFiles/cmTC_7fda5.dir/build
+make[1]: Entering directory '/home/fabsmpa/HoverGames/devel/tools/a53/opencv/cross/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7fda5.dir/testCXXCompiler.cxx.o
+/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++   -mcpu=cortex-a53+crc+crypto -fstack-protector-strong  -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux --sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux    -O2 -pipe -g -feliminate-unused-debug-types     -o CMakeFiles/cmTC_7fda5.dir/testCXXCompiler.cxx.o -c /home/fabsmpa/HoverGames/devel/tools/a53/opencv/cross/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_7fda5
+/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7fda5.dir/link.txt --verbose=1
+/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++   -mcpu=cortex-a53+crc+crypto -fstack-protector-strong  -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux --sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux   -O2 -pipe -g -feliminate-unused-debug-types    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fstack-protector-strong -Wl,-z,relro,-z,now  CMakeFiles/cmTC_7fda5.dir/testCXXCompiler.cxx.o  -o cmTC_7fda5 
+make[1]: Leaving directory '/home/fabsmpa/HoverGames/devel/tools/a53/opencv/cross/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/fabsmpa/HoverGames/devel/tools/a53/opencv/cross/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0be39/fast && /usr/bin/make -f CMakeFiles/cmTC_0be39.dir/build.make CMakeFiles/cmTC_0be39.dir/build
+make[1]: Entering directory '/home/fabsmpa/HoverGames/devel/tools/a53/opencv/cross/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0be39.dir/CMakeCXXCompilerABI.cpp.o
+/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++   -mcpu=cortex-a53+crc+crypto -fstack-protector-strong  -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux --sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux    -O2 -pipe -g -feliminate-unused-debug-types     -v -o CMakeFiles/cmTC_0be39.dir/CMakeCXXCompilerABI.cpp.o -c /opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++
+Target: aarch64-poky-linux
+Configured with: ../../../../../../work-shared/gcc-9.2.0-r0/gcc-9.2.0/configure --build=x86_64-linux --host=x86_64-pokysdk-linux --target=aarch64-poky-linux --prefix=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr --exec_prefix=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr --bindir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --sbindir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --libexecdir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux --datadir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/share --sysconfdir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/etc --sharedstatedir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/com --localstatedir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/var --libdir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux --includedir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/include --oldincludedir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/include --infodir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/share/info --mandir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/fabsmpa/HoverGames/yocto/build-wayland/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/9.2.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=aarch64-poky-linux- --without-local-prefix --enable-lto --disable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/9.2.0 --with-build-time-tools=/home/fabsmpa/HoverGames/yocto/build-wayland/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/9.2.0-r0/recipe-sysroot-native/usr/aarch64-poky-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/home/fabsmpa/HoverGames/yocto/build-wayland/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/9.2.0-r0/recipe-sysroot --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array --enable-__cxa_atexit
+Thread model: posix
+gcc version 9.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='--sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux' '-mcpu=cortex-a53+crc+crypto' '-fstack-protector-strong' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'CMakeFiles/cmTC_0be39.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+ /opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/cc1plus -quiet -v -isysroot /opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux -D_GNU_SOURCE -D _FORTIFY_SOURCE=2 /opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=cortex-a53+crc+crypto -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_0be39.dir/CMakeCXXCompilerABI.cpp.o -g -O2 -Wformat=1 -Wformat-security -Werror=format-security -version -fstack-protector-strong -feliminate-unused-debug-types -o - |
+ /opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/as -v -EL -march=armv8-a+crypto+crc -mabi=lp64 -o CMakeFiles/cmTC_0be39.dir/CMakeCXXCompilerABI.cpp.o
+GNU assembler version 2.32.0 (aarch64-poky-linux) using BFD version (GNU Binutils) 2.32.0.20190204
+GNU C++14 (GCC) version 9.2.0 (aarch64-poky-linux)
+	compiled by GNU C version 9.2.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/local/include"
+ignoring nonexistent directory "/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/../../../../../aarch64-poky-linux/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/include/c++/9.2.0
+ /opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/include/c++/9.2.0/aarch64-poky-linux
+ /opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/include/c++/9.2.0/backward
+ /opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/include
+ /opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.2.0/include
+ /opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/include-fixed
+ /opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/include/
+End of search list.
+GNU C++14 (GCC) version 9.2.0 (aarch64-poky-linux)
+	compiled by GNU C version 9.2.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 9f9960702b21b610f952534fd6b9147b
+COMPILER_PATH=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/
+LIBRARY_PATH=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/lib/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.2.0/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/
+COLLECT_GCC_OPTIONS='--sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux' '-mcpu=cortex-a53+crc+crypto' '-fstack-protector-strong' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'CMakeFiles/cmTC_0be39.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+Linking CXX executable cmTC_0be39
+/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0be39.dir/link.txt --verbose=1
+/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++   -mcpu=cortex-a53+crc+crypto -fstack-protector-strong  -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux --sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux   -O2 -pipe -g -feliminate-unused-debug-types    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fstack-protector-strong -Wl,-z,relro,-z,now -v CMakeFiles/cmTC_0be39.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_0be39 
+Using built-in specs.
+COLLECT_GCC=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++
+COLLECT_LTO_WRAPPER=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/lto-wrapper
+Target: aarch64-poky-linux
+Configured with: ../../../../../../work-shared/gcc-9.2.0-r0/gcc-9.2.0/configure --build=x86_64-linux --host=x86_64-pokysdk-linux --target=aarch64-poky-linux --prefix=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr --exec_prefix=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr --bindir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --sbindir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --libexecdir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux --datadir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/share --sysconfdir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/etc --sharedstatedir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/com --localstatedir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/var --libdir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux --includedir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/include --oldincludedir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/include --infodir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/share/info --mandir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/fabsmpa/HoverGames/yocto/build-wayland/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/9.2.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=aarch64-poky-linux- --without-local-prefix --enable-lto --disable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/9.2.0 --with-build-time-tools=/home/fabsmpa/HoverGames/yocto/build-wayland/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/9.2.0-r0/recipe-sysroot-native/usr/aarch64-poky-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/home/fabsmpa/HoverGames/yocto/build-wayland/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/9.2.0-r0/recipe-sysroot --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array --enable-__cxa_atexit
+Thread model: posix
+gcc version 9.2.0 (GCC) 
+COMPILER_PATH=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/
+LIBRARY_PATH=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/lib/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.2.0/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/
+COLLECT_GCC_OPTIONS='--sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux' '-mcpu=cortex-a53+crc+crypto' '-fstack-protector-strong' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-fstack-protector-strong' '-v' '-o' 'cmTC_0be39' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+ /opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/collect2 -plugin /opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/liblto_plugin.so -plugin-opt=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbR9atj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -pie -o cmTC_0be39 /opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/Scrt1.o /opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/crti.o /opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.2.0/crtbeginS.o -L/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0 -L/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/lib -L/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.2.0 -L/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib -O1 --hash-style=gnu --as-needed -z relro -z now CMakeFiles/cmTC_0be39.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.2.0/crtendS.o /opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='--sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux' '-mcpu=cortex-a53+crc+crypto' '-fstack-protector-strong' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-fstack-protector-strong' '-v' '-o' 'cmTC_0be39' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+make[1]: Leaving directory '/home/fabsmpa/HoverGames/devel/tools/a53/opencv/cross/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/include/c++/9.2.0]
+    add: [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/include/c++/9.2.0/aarch64-poky-linux]
+    add: [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/include/c++/9.2.0/backward]
+    add: [/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/include]
+    add: [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.2.0/include]
+    add: [/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/include-fixed]
+    add: [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/include/]
+  end of search list found
+  collapse include dir [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/include/c++/9.2.0] ==> [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/include/c++/9.2.0]
+  collapse include dir [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/include/c++/9.2.0/aarch64-poky-linux] ==> [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/include/c++/9.2.0/aarch64-poky-linux]
+  collapse include dir [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/include/c++/9.2.0/backward] ==> [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/include/c++/9.2.0/backward]
+  collapse include dir [/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/include] ==> [/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/include]
+  collapse include dir [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.2.0/include] ==> [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.2.0/include]
+  collapse include dir [/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/include-fixed] ==> [/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/include-fixed]
+  collapse include dir [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/include/] ==> [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/include]
+  implicit include dirs: [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/include/c++/9.2.0;/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/include/c++/9.2.0/aarch64-poky-linux;/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/include/c++/9.2.0/backward;/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/include;/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.2.0/include;/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/include-fixed;/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(aarch64-poky-linux-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/fabsmpa/HoverGames/devel/tools/a53/opencv/cross/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_0be39/fast && /usr/bin/make -f CMakeFiles/cmTC_0be39.dir/build.make CMakeFiles/cmTC_0be39.dir/build]
+  ignore line: [make[1]: Entering directory '/home/fabsmpa/HoverGames/devel/tools/a53/opencv/cross/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_0be39.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++   -mcpu=cortex-a53+crc+crypto -fstack-protector-strong  -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux --sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux    -O2 -pipe -g -feliminate-unused-debug-types     -v -o CMakeFiles/cmTC_0be39.dir/CMakeCXXCompilerABI.cpp.o -c /opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++]
+  ignore line: [Target: aarch64-poky-linux]
+  ignore line: [Configured with: ../../../../../../work-shared/gcc-9.2.0-r0/gcc-9.2.0/configure --build=x86_64-linux --host=x86_64-pokysdk-linux --target=aarch64-poky-linux --prefix=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr --exec_prefix=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr --bindir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --sbindir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --libexecdir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux --datadir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/share --sysconfdir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/etc --sharedstatedir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/com --localstatedir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/var --libdir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux --includedir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/include --oldincludedir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/include --infodir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/share/info --mandir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/fabsmpa/HoverGames/yocto/build-wayland/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/9.2.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=aarch64-poky-linux- --without-local-prefix --enable-lto --disable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/9.2.0 --with-build-time-tools=/home/fabsmpa/HoverGames/yocto/build-wayland/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/9.2.0-r0/recipe-sysroot-native/usr/aarch64-poky-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/home/fabsmpa/HoverGames/yocto/build-wayland/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/9.2.0-r0/recipe-sysroot --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array --enable-__cxa_atexit]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux' '-mcpu=cortex-a53+crc+crypto' '-fstack-protector-strong' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'CMakeFiles/cmTC_0be39.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [ /opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/cc1plus -quiet -v -isysroot /opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux -D_GNU_SOURCE -D _FORTIFY_SOURCE=2 /opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=cortex-a53+crc+crypto -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_0be39.dir/CMakeCXXCompilerABI.cpp.o -g -O2 -Wformat=1 -Wformat-security -Werror=format-security -version -fstack-protector-strong -feliminate-unused-debug-types -o - |]
+  ignore line: [ /opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/as -v -EL -march=armv8-a+crypto+crc -mabi=lp64 -o CMakeFiles/cmTC_0be39.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [GNU assembler version 2.32.0 (aarch64-poky-linux) using BFD version (GNU Binutils) 2.32.0.20190204]
+  ignore line: [GNU C++14 (GCC) version 9.2.0 (aarch64-poky-linux)]
+  ignore line: [	compiled by GNU C version 9.2.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/../../../../../aarch64-poky-linux/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/include/c++/9.2.0]
+  ignore line: [ /opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/include/c++/9.2.0/aarch64-poky-linux]
+  ignore line: [ /opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/include/c++/9.2.0/backward]
+  ignore line: [ /opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/include]
+  ignore line: [ /opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.2.0/include]
+  ignore line: [ /opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/include-fixed]
+  ignore line: [ /opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/include/]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (GCC) version 9.2.0 (aarch64-poky-linux)]
+  ignore line: [	compiled by GNU C version 9.2.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 9f9960702b21b610f952534fd6b9147b]
+  ignore line: [COMPILER_PATH=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/]
+  ignore line: [LIBRARY_PATH=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/lib/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.2.0/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux' '-mcpu=cortex-a53+crc+crypto' '-fstack-protector-strong' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'CMakeFiles/cmTC_0be39.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [Linking CXX executable cmTC_0be39]
+  ignore line: [/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0be39.dir/link.txt --verbose=1]
+  ignore line: [/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++   -mcpu=cortex-a53+crc+crypto -fstack-protector-strong  -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux --sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux   -O2 -pipe -g -feliminate-unused-debug-types    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fstack-protector-strong -Wl,-z,relro,-z,now -v CMakeFiles/cmTC_0be39.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_0be39 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/lto-wrapper]
+  ignore line: [Target: aarch64-poky-linux]
+  ignore line: [Configured with: ../../../../../../work-shared/gcc-9.2.0-r0/gcc-9.2.0/configure --build=x86_64-linux --host=x86_64-pokysdk-linux --target=aarch64-poky-linux --prefix=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr --exec_prefix=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr --bindir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --sbindir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --libexecdir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux --datadir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/share --sysconfdir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/etc --sharedstatedir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/com --localstatedir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/var --libdir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux --includedir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/include --oldincludedir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/include --infodir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/share/info --mandir=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/fabsmpa/HoverGames/yocto/build-wayland/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/9.2.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=aarch64-poky-linux- --without-local-prefix --enable-lto --disable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/9.2.0 --with-build-time-tools=/home/fabsmpa/HoverGames/yocto/build-wayland/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/9.2.0-r0/recipe-sysroot-native/usr/aarch64-poky-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/home/fabsmpa/HoverGames/yocto/build-wayland/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/9.2.0-r0/recipe-sysroot --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array --enable-__cxa_atexit]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/]
+  ignore line: [LIBRARY_PATH=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/lib/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.2.0/:/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux' '-mcpu=cortex-a53+crc+crypto' '-fstack-protector-strong' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-fstack-protector-strong' '-v' '-o' 'cmTC_0be39' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/collect2 -plugin /opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/liblto_plugin.so -plugin-opt=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbR9atj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -pie -o cmTC_0be39 /opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/Scrt1.o /opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/crti.o /opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.2.0/crtbeginS.o -L/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0 -L/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/lib -L/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.2.0 -L/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib -O1 --hash-style=gnu --as-needed -z relro -z now CMakeFiles/cmTC_0be39.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.2.0/crtendS.o /opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/crtn.o]
+    arg [/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccbR9atj.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_0be39] ==> ignore
+    arg [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/Scrt1.o] ==> ignore
+    arg [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/crti.o] ==> ignore
+    arg [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.2.0/crtbeginS.o] ==> ignore
+    arg [-L/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0] ==> dir [/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0]
+    arg [-L/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/lib] ==> dir [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/lib]
+    arg [-L/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.2.0] ==> dir [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.2.0]
+    arg [-L/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib] ==> dir [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib]
+    arg [-O1] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [CMakeFiles/cmTC_0be39.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.2.0/crtendS.o] ==> ignore
+    arg [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/crtn.o] ==> ignore
+  collapse library dir [/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0] ==> [/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0]
+  collapse library dir [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/lib] ==> [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/lib]
+  collapse library dir [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.2.0] ==> [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.2.0]
+  collapse library dir [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib] ==> [/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/opt/fsl-imx-wayland/5.4-zeus/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.2.0;/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/lib;/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.2.0;/opt/fsl-imx-wayland/5.4-zeus/sysroots/aarch64-poky-linux/usr/lib]
+  implicit fwks: []
+
+

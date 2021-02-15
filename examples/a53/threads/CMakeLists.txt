@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.5.1)
+
+set(CMAKE_SYSTEM_NAME Linux)
+set(CMAKE_SYSTEM_PROCESSOR arm)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+project(mutex)
+if(NOT MSVC)
+    add_definitions("-Wall -Wextra")
+else()
+    add_definitions("-WX -W2")
+endif()
+add_executable(mutex threads.cpp)
+
+target_link_libraries(mutex pthread)

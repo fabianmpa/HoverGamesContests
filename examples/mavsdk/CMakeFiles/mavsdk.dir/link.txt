@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/mavsdk.dir/hg_test.cpp.o -o mavsdk  -Wl,-rpath,/usr/local/lib /usr/local/lib/libmavsdk_action.so.0.35.1 /usr/local/lib/libmavsdk_mission.so.0.35.1 /usr/local/lib/libmavsdk_telemetry.so.0.35.1 /usr/local/lib/libmavsdk.so.0.35.1 -lpthread 
