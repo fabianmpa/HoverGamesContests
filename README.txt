@@ -1,6 +1,11 @@
-Code for HoverGames2 and susequent contests
+Code for HoverGames2 and subequent contests
 
-for the A53 core:
-- receive mavlink messages from flight controller
-- activate or deactivate tracking algorithm
-- handle the activation/use of the camera
+For the A53 core:
+- receive mavlink messages from flight controller FMU K66
+	-Hovergames State machine module created
+	- GPS data
+	- Mission Status
+- Activate or deactivate tracking algorithm
+	- The state machine defined in the CameraHandler Class is the one that decides whether the camera is activated or not
+- Store GPS data to add it to the Android application
+	- GpsHandler stores the data in a GeoJSON format, which then is loaded to the Maps Application
