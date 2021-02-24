@@ -1,13 +1,14 @@
 #include <functional>
 #include <future>
 #include <memory>
+#include <thread>
+#include <mutex>
 #include "ResultHandler.hpp"
 #include "CameraHandler.hpp"
 #include "GpsHandler.hpp"
 #include "MissionHandler.hpp"
 
-using namespace std::this_thread;
-using namespace std::chrono;
+std::mutex m;
 
 int main()
 {
@@ -27,6 +28,7 @@ int main()
     connection_url = "udp://:14540";
     #endif
 
+    /*Look for new system and subscribe to it*/
     {
         auto prom = std::make_shared<std::promise<void>>();
         auto future_result = prom->get_future();
@@ -53,6 +55,7 @@ int main()
         future_result.get();
     }
 
+    /*Create action, mission and telemetry handlers*/
     auto system = mavsdk.systems().at(0);
     auto action = Action{system};
     auto mission = Mission{system};
@@ -67,7 +70,7 @@ int main()
     /*Import mission from this directory*/
     std::pair<Mission::Result, Mission::MissionPlan> import_res =
         mission.import_qgroundcontrol_mission(qgc_plan);
-    handle_mission_err_exit(import_res.first, "Failed to import mission items: ");
+    handle_mission_err_exit(import_res.first, "Failed to import mission: ");
 
     if (import_res.second.mission_items.size() == 0)
     {
@@ -76,7 +79,7 @@ int main()
     }
 
     std::cout << "Found " << import_res.second.mission_items.size()
-              << " mission items in the given QGC plan." << std::endl;
+              << " mission items in the QGC plan." << std::endl;
 
     {
         auto prom = std::make_shared<std::promise<Mission::Result>>();
@@ -107,6 +110,8 @@ int main()
         return 1;
     }
 
+    camera_h.InitReader();
+    camera_h.InitWriter();
     /*every time we get a new message, StateMachine is executed*/
     telemetry.subscribe_HoverGamesStatus(camera_h.StatusCallback);
     /*Currently Gps information is only displayed*/
@@ -119,6 +124,8 @@ int main()
 
     /*Subscribe to the mission progress*/
     mission.subscribe_mission_progress(mission_h.MissionProgressCallback);
+
+    std::thread StateMachine(&CameraHandler::StateMachine,&camera_h);
 
     {
         std::cout << "Starting mission." << std::endl;
@@ -135,12 +142,10 @@ int main()
     }
 
     while (!mission.is_mission_finished().second)
-    {
-        sleep_for(seconds(1));
-    }
+    {}
 
-    /*Wait for 20 sec*/
-    sleep_for(seconds(20));
+    /*Run Camera State Machine*/
+    StateMachine.join();
 
     {
         /*When mission is completed, send Return to Land command*/

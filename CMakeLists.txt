@@ -21,6 +21,8 @@ add_executable(${PROJECT_NAME}
     src/CameraHandler.cpp
     src/MissionHandler.cpp
     src/ResultHandler.cpp
+    src/VideoWriter.cpp
+    src/VideoReader.cpp
 )
 
 target_link_libraries(${PROJECT_NAME}
