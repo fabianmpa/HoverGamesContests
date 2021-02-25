@@ -1,10 +1,8 @@
-
 #pragma once
-
-#include "IFrameOutput.hpp"
 #include <opencv2/opencv.hpp>
 
-class Video_Writer : public IFrameOutput<cv::Mat> {
+class Video_Writer
+{
 public:
     /**
      * @brief Default constructor.
@@ -13,7 +11,7 @@ public:
      */
     Video_Writer() = default;
 
-    ~Video_Writer() override = default;
+    ~Video_Writer()= default;
 
     /**
      * @brief Initialises video file writer.
@@ -34,20 +32,22 @@ public:
      *
      * @param frame data to write.
      */
-    void WriteFrame(std::shared_ptr<cv::Mat>& frame) override;
+    void WriteFrame(std::shared_ptr<cv::Mat>& frame);
 
     /**
      * Releases opencv writer.
      */
-    void Close() override;
+    void Close();
 
     /**
      * Checks if opencv writer was successfully opened.
      * @return true is underlying writer is ready to be used, false otherwise.
      */
-    bool IsReady() const override;
+    bool IsReady() const;
+
 
 private:
     cv::VideoWriter m_cvWriter{};
     bool m_ready = false;
+    void CheckIsOpen();
 };

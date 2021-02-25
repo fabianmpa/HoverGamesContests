@@ -5,22 +5,24 @@ void CameraHandler::PreactiveState(void){}
 
 void CameraHandler::RecordVideo(void)
 {
-	std::shared_ptr<cv::Mat> frame = vReader.ReadFrame();
-	vWriter.WriteFrame(frame);
 }
 
 void CameraHandler::CaptureImages(void){}
-void CameraHandler::PausedState(void){}
+void CameraHandler::PausedState(void)
+{
+	std::shared_ptr<cv::Mat> frame = vReader.ReadFrame();
+	vWriter.WriteFrame(frame);
+}
 void CameraHandler::FaultedState(void){}
 
 void CameraHandler::InitReader()
 {
-	vReader.Init("/dev/video2");
+	vReader.Init(source);
 }
 
 void CameraHandler::InitWriter()
 {
-	vWriter.Init("test.avi", 25, vReader.GetSourceWidth(), vReader.GetSourceHeight());
+	vWriter.Init(sink, fps, vReader.GetSourceWidth(), vReader.GetSourceHeight());
 }
 
 CameraHandler::~CameraHandler()
@@ -33,6 +35,7 @@ void CameraHandler::StateMachine()
 {
 	for (;;)
 	{
+		std::lock_guard<std::mutex> g(stateMachineMutex);
 		switch (currentHovergames.HoverGames_SM)
 		{
 		case HOVERGAMES_STANDBY_STATE: /*Sandby State*/

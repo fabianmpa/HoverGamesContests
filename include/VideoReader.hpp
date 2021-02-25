@@ -1,12 +1,7 @@
-
 #pragma once
-
-
-#include "IFrameReader.hpp"
 #include <opencv2/opencv.hpp>
 
-class VideoReader :
-    public IFrameReader<cv::Mat>
+class VideoReader
 {
 public:
     /**
@@ -16,7 +11,7 @@ public:
      */
     VideoReader() = default;
 
-    ~VideoReader() override = default;
+    ~VideoReader() = default;
 
     /**
      *@brief Initialises reader to capture frames from video file.
@@ -27,9 +22,9 @@ public:
      */
     void Init(const std::string& source);
 
-    std::shared_ptr <cv::Mat> ReadFrame() override;
+    std::shared_ptr <cv::Mat> ReadFrame();
 
-    bool IsExhausted(const std::shared_ptr <cv::Mat>& frame) const override;
+    bool IsExhausted(const std::shared_ptr <cv::Mat>& frame) const;
 
     /**
      * Returns effective video frame width supported by the source/set by the user.
@@ -80,11 +75,10 @@ public:
 private:
     cv::VideoCapture m_capture;
 
-    void CheckIsOpen(const std::string& source);
+    void CheckIsOpen();
 };
 
-class VideoReaderRgbWrapper :
-        public IFrameReader<cv::Mat>
+class VideoReaderRgbWrapper
 {
 public:
     VideoReaderRgbWrapper() = delete;
@@ -93,9 +87,9 @@ public:
 
     VideoReaderRgbWrapper(std::unique_ptr<VideoReader> reader);
 
-    std::shared_ptr<cv::Mat> ReadFrame() override;
+    std::shared_ptr<cv::Mat> ReadFrame();
 
-    bool IsExhausted(const std::shared_ptr<cv::Mat>& frame) const override;
+    bool IsExhausted(const std::shared_ptr<cv::Mat>& frame) const;
 
 private:
     std::unique_ptr<VideoReader> m_reader;

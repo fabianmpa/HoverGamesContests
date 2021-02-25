@@ -1,4 +1,14 @@
 #include "VideoWriter.hpp"
+#include "Types.hpp"
+
+
+void Video_Writer::CheckIsOpen()
+{
+    if (!m_cvWriter.isOpened())
+    {
+        exit(EXIT_FAILURE);
+    }
+}
 
 void Video_Writer::Init(const std::string& outputVideo, double fps, int width, int height)
 {
@@ -7,8 +17,8 @@ void Video_Writer::Init(const std::string& outputVideo, double fps, int width, i
                               fps,
                               cv::Size(width, height),
                               true);
+    CheckIsOpen();
 }
-
 
 void Video_Writer::WriteFrame(std::shared_ptr<cv::Mat>& frame)
 {

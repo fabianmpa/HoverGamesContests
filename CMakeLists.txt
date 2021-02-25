@@ -23,6 +23,7 @@ add_executable(${PROJECT_NAME}
     src/ResultHandler.cpp
     src/VideoWriter.cpp
     src/VideoReader.cpp
+    src/Utilities.cpp
 )
 
 target_link_libraries(${PROJECT_NAME}

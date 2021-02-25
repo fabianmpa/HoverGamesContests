@@ -1,8 +1,9 @@
 #include "VideoReader.hpp"
+#include "Types.hpp"
 
 std::shared_ptr<cv::Mat> VideoReader::ReadFrame()
 {
-    // opencv copies data anyway
+
     cv::Mat captureFrame;
     m_capture.read(captureFrame);
     return std::make_shared<cv::Mat>(std::move(captureFrame));
@@ -14,18 +15,18 @@ bool VideoReader::IsExhausted(const std::shared_ptr<cv::Mat>& frame) const
     return frame->empty();
 }
 
-void VideoReader::CheckIsOpen(const std::string& source)
+void VideoReader::CheckIsOpen()
 {
     if (!m_capture.isOpened())
     {
-        throw std::runtime_error("Failed to open video capture for the source = " + source);
+        exit(EXIT_FAILURE);
     }
 }
 
 void VideoReader::Init(const std::string& source)
 {
     m_capture.open(source);
-    CheckIsOpen(source);
+    CheckIsOpen();
 }
 
 int VideoReader::GetSourceWidth() const
