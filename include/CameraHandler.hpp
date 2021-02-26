@@ -12,34 +12,30 @@
 class CameraHandler
 {
 public:
-    CameraHandler() = default;
+    CameraHandler(string& device): source{device}{};
     ~CameraHandler();
     /*Open Video Capture Object*/
-    void InitReader();
+    void InitReader(void);
     /*Open VideoWriter object*/
-    void InitWriter();
+    void InitWriter(void);
+    /*Main state machine which decides what the state of the camera is*/
+    void StateMachine(void);
+    /*Lambda callback which updates the value of hovermaes message comming from mavlink */
+
+private:
     void StandbyState(void);
     void PreactiveState(void);
     void RecordVideo(void);
     void CaptureImages(void);
     void FaultedState(void);
     void PausedState(void);
-    /*Main state machine which decides what the state of the camera is*/
-    void StateMachine(void);
-    /*Lambda callback which updates the value of hovermaes message comming from mavlink */
-    function<void(Telemetry::HoverGamesStatus_s)> StatusCallback = [this](Telemetry::HoverGamesStatus_s hgStatus) {
-        currentHovergames.HoverGames_SM = hgStatus.HoverGames_SM;
-        currentHovergames.HoverGames_ActiveSM = hgStatus.HoverGames_ActiveSM;
-    };
-
-private:
-    hovergames_s currentHovergames;
     VideoReader vReader;
     Video_Writer vWriter;
     mutex stateMachineMutex;
+    hovergames_s currentHovergames;
 
 protected:
-    string source {"/dev/video2"};
-    string sink   {"test.avi"};
+    string source;
+    string sink   {"hovergames.avi"};
     double fps    {15.0F};
 };

@@ -17,13 +17,13 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 link_directories(${OpenCV_LIB_DIR})
 add_executable(${PROJECT_NAME}
     src/hovergames.cpp
-    src/GpsHandler.cpp
+    src/TelemetryHandler.cpp
     src/CameraHandler.cpp
     src/MissionHandler.cpp
-    src/ResultHandler.cpp
     src/VideoWriter.cpp
     src/VideoReader.cpp
     src/Utilities.cpp
+    src/ActionHandler.cpp
 )
 
 target_link_libraries(${PROJECT_NAME}

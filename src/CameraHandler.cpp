@@ -1,36 +1,5 @@
 #include "CameraHandler.hpp"
 
-void CameraHandler::StandbyState(void){}
-void CameraHandler::PreactiveState(void){}
-
-void CameraHandler::RecordVideo(void)
-{
-}
-
-void CameraHandler::CaptureImages(void){}
-void CameraHandler::PausedState(void)
-{
-	std::shared_ptr<cv::Mat> frame = vReader.ReadFrame();
-	vWriter.WriteFrame(frame);
-}
-void CameraHandler::FaultedState(void){}
-
-void CameraHandler::InitReader()
-{
-	vReader.Init(source);
-}
-
-void CameraHandler::InitWriter()
-{
-	vWriter.Init(sink, fps, vReader.GetSourceWidth(), vReader.GetSourceHeight());
-}
-
-CameraHandler::~CameraHandler()
-{
-	vWriter.Close();
-	vReader.Close();
-}
-
 void CameraHandler::StateMachine()
 {
 	for (;;)
@@ -71,3 +40,41 @@ void CameraHandler::StateMachine()
 		std::this_thread::sleep_for(std::chrono::milliseconds(40));
 	}
 }
+
+void CameraHandler::StandbyState(void)
+{}
+
+void CameraHandler::PreactiveState(void)
+{}
+
+void CameraHandler::RecordVideo(void)
+{}
+
+void CameraHandler::CaptureImages(void)
+{}
+
+void CameraHandler::PausedState(void)
+{
+	std::shared_ptr<cv::Mat> frame = vReader.ReadFrame();
+	vWriter.WriteFrame(frame);
+}
+
+void CameraHandler::FaultedState(void)
+{}
+
+void CameraHandler::InitReader(void)
+{
+	vReader.Init(source);
+}
+
+void CameraHandler::InitWriter(void)
+{
+	vWriter.Init(sink, fps, vReader.GetSourceWidth(), vReader.GetSourceHeight());
+}
+
+CameraHandler::~CameraHandler()
+{
+	vWriter.Close();
+	vReader.Close();
+}
+

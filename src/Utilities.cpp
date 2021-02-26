@@ -1,5 +1,4 @@
 #include "Utilities.hpp"
-#include "ResultHandler.hpp"
 
 auto SubscribeSystemLambda(Mavsdk& mavsdk, shared_ptr<promise<void>> prom)
 {
@@ -27,5 +26,13 @@ void SubscribeNewSystem(Mavsdk& mavsdk, string& connection_url)
     ConnectionResult connection_result = mavsdk.add_any_connection(connection_url);
     handle_connection_err_exit(connection_result, "Connection failed: ");
     future_result.get();
+}
+
+void handle_connection_err_exit(ConnectionResult result, const string& message)
+{
+    if (result != ConnectionResult::Success) {
+        std::cerr << ERROR_CONSOLE_TEXT << message << result << NORMAL_CONSOLE_TEXT << std::endl;
+        exit(EXIT_FAILURE);
+    }
 }
 
